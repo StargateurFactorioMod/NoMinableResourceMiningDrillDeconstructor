@@ -1,9 +1,9 @@
 {
     "name": "NoMinableResourceMiningDrillDeconstructor",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "title": "No Minable Resource Mining Drill Deconstructor",
     "author": "Stargateur",
     "contact": "plaskowski.stanislas@gmail.com",
-    "description": "Adds the Empty Miner Deconstruction toolbox shortcut which allows you to mark empty miners for deconstruction",
+    "description": "Shortcut to order mining drill without resource to mine to be deconstruct",
     "factorio_version": "2.0"
 }
