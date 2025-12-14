@@ -4,6 +4,6 @@
     "title": "No Minable Resource Mining Drill Deconstructor",
     "author": "Stargateur",
     "contact": "plaskowski.stanislas@gmail.com",
-    "description": "Shortcut to order mining drill without resource to mine to be deconstruct",
+    "description": "Shortcut to order deconstruction of mining drill without resource to mine",
     "factorio_version": "2.0"
 }
