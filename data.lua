@@ -1,3 +1,8 @@
+local icons = {{
+  icon = "__core__/graphics/icons/alerts/resources-depleted-icon.png",
+  icon_size = 64,
+}}
+
 local select = {
   mode = "deconstruct",
   entity_type_filters = { "mining-drill" },
@@ -12,23 +17,18 @@ data:extend({
     name = "no-minable-resource-mining-drill-deconstructor",
     action = "lua",
     style = "red",
-    icon = "__NoMinableResourceMiningDrillDeconstructor__/icon.png",
-    icon_size = 64,
-    small_icon = "__NoMinableResourceMiningDrillDeconstructor__/icon.png",
-    small_icon_size = 64,
+    icons = icons,
+    small_icons = icons,
   },
   {
     type = "selection-tool",
     name = "no-minable-resource-mining-drill-deconstructor",
     subgroup = "tool",
-    icon = "__NoMinableResourceMiningDrillDeconstructor__/icon.png",
-    icon_size = 64,
-    small_icon = "__NoMinableResourceMiningDrillDeconstructor__/icon.png",
-    small_icon_size = 64,
+    icons = icons,
     flags = { "only-in-cursor", "not-stackable", "spawnable" },
     hidden = true,
     stack_size = 1,
     select = select,
     alt_select = select,
-  }
+  },
 })
